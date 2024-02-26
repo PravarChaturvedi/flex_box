@@ -1,44 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  font-family: "Asap", sans-serif;
+  text-align: center;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
+
 h1 {
-    margin: 0;
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+p {
+  font-size: 25px;
+  padding: 0% 20%;
+}
+
+.text-white {
+  color: white;
+}
+
+nav,
+#credits {
+  background-color: black;
+  height: 60px;
+  /* Your code goes here */
+}
+
+.container {
+  width: 500px;
+  /* Your code goes here */
+}
+
+.button {
+  background-color: #ffcc00;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home img {
+  max-width: 100%;
+}
+
+.middle img {
+  width: 25%;
+}
+
+.middle {
+  min-height: 500px;
+}
+
+footer {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/black-background.png);
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100%;
+  padding: 10% 0%;
 }
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
 }
-p {
-    line-height: 1.6;
+
+.container div {
+  flex-grow: 1;
+  text-align: center;
 }
-.cta-button {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+
+.container div a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
 }
-.cta-button:hover {
-    background-color: #0056b3;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+
+.container div:hover {
+  background-color: #333; /* Change to your preferred hover background color */
 }
